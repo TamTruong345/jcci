@@ -1,0 +1,164 @@
+body{
+	font-size: 16px;
+}
+#header{
+	background: #F4F4F4;
+	padding: 15px 0;
+}
+.logo,.headerNav{
+	display: inline-block;
+}
+.headerNav{
+	float: right;
+	padding: 10px 0;
+}
+.headerNav a{
+    padding: 7px 20px;
+    border-radius: 30px;
+    background: #E0E0E0;
+    color: #343434;
+    margin-left: 15px;
+}
+#mainNav {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    border-radius: 0;
+    background: none;
+    margin: 0;
+}
+.navbar{
+	min-height: 10px;
+}
+.mainNav-list li a{
+    padding: 10px 17px;
+    font-weight: bold;
+    color: #5F5F5F !important;
+    font-size: 15px;
+}
+.mainNav-list li a,.headerNav a,.btn{
+	transition: all 0.5s;
+}
+.mainNav-list li a:hover,.mainNav-list li a.active,.headerNav a:hover{
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+}
+main {
+    background: #F2F8FC;
+    padding-bottom: 20px;
+}
+.breadcrumb-custom{
+	background: none;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	margin: 0;
+}
+.form-wrap {
+    background: white;
+    border: 1px solid #C6C6C6;
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-side {
+	padding: 15px 0;
+	min-width: 50px;
+    display: table-cell;
+    border-right: 1px solid #C6C6C6;
+}
+.form-side-content{
+	width: 15px;
+	margin: auto;
+}
+.form-main {
+    display: table-cell;
+    max-width: 95%;
+    padding: 15px 0;
+}
+.form-main .input-group {
+    margin-bottom: 13px;
+    width: 100%;
+}
+.form-main .input-group-addon {
+	display: block;
+    border: none;
+    background: none;
+}
+.form-main .form-control {
+    border-radius: 3px !important;
+}
+.btn-wrap{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pagination-custom{
+	display: inline-block;
+	float: right;
+	margin: 20px 0 0 20px;
+}
+.pagination-custom>li>a,.pagination-custom>li.active>span,.pagination-custom>li.disabled>span{
+	padding: 6px 10px;
+}
+.table-custom{
+	background: #FFFFFF;
+	margin: 20px 0;
+}
+.table-custom .table{
+	margin: 0;
+}
+.table-custom .table-striped>tbody>tr:nth-of-type(odd){
+	background: #F2F8FC;
+}
+.table-custom .table-bordered>tbody>tr>td,
+.table-custom .table-bordered>tbody>tr>th,
+.table-custom .table-bordered>tfoot>tr>td,
+.table-custom .table-bordered>tfoot>tr>th,
+.table-custom .table-bordered>thead>tr>td,
+.table-custom .table-bordered>thead>tr>th{
+	border-left: none !important;
+	border-right: none !important;
+}
+.modal-body .row{
+	margin-bottom: 25px;
+} 
+.modal-body .row:last-child {
+    margin-bottom: 0;
+}
+/******* Module1 *******/
+.module1 .mainNav-list li a:hover,
+.module1 .mainNav-list li a.active,
+.module1 .mainNav-list a:hover,
+.module1 .headerNav-item:hover {
+	background: #007ED1 !important;
+}
+.module1 #mainNav{
+    border-bottom: 2px solid #007ED1;
+}
+.module1 .form-side-content{
+    color: #007ED1 !important;
+}
+.module1 .module1-btn{
+    background: #007ED1 !important;
+}
+/******* End Module1 *******/
+
+@media screen and (min-width: 992px){
+	.mainNav-list li a{
+	    padding: 15px 30px;
+	    font-size: 16px;
+	}
+	.form-main .input-group-addon {
+		display: table-cell;
+	    width: 90px;
+	}
+	.btn-wrap{
+		text-align: left;
+		margin-bottom: 0;
+	}
+}
+@media screen and (min-width: 480px){
+	.pagination-custom{
+		display: inline;
+		margin: 0 0 0 30px;
+	}
+}

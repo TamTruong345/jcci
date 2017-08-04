@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/datepicker/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/amazing-font.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="module1">
+	<header id="header">
+		<div class="container-fluid">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="headerNav">
+				<a href="" class="headerNav-item"><i class="ico-user"></i> 管理者</a>
+				<a href="" class="headerNav-item"><i class="ico-power-switch"></i> ログアウト</a>
+			</div>
+		</div>
+	</header>
+	<nav id="mainNav" class="navbar navbar-default">
+		<div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav mainNav-list module1">
+			<li><a href="" class="active">受付</a></li>
+			<li><a href="">見積書</a></li>
+			<li><a href="">注文書</a></li>
+			<li><a href="">発注書</a></li>
+			<li><a href="">請求書</a></li>
+			<li><a href="">顧客マスタ</a></li>
+			<li><a href="">商品マスタ</a></li>
+			<li><a href="">システム管理</a></li>
+		</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="breadcrumb-wrap">
+			<ol class="breadcrumb breadcrumb-custom">
+			  <li><a href="#">TOP</a></li>
+			  <li class="active">受付</li>
+			</ol>
+		</div>
+		<div class="container-fluid">
+			<div class="form-wrap clearfix">
+				<div class="form-side">
+					<div class="form-side-content module1-color">
+						<i class="ico-magnifier"></i>検索
+					</div>
+				</div>
+				<div class="form-main">
+					<form action="">
+						<div class="clearfix">
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">受付番号</span>
+							  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">受付番号</span>
+							  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div id="sandbox-container">
+									<div class="input-daterange input-group" id="datepicker">
+							  			<span class="input-group-addon" id="basic-addon1">受付番号</span>
+									    <div style="display: table; width: 100%;">
+									    	<input type="text" class="input-sm form-control" name="start" placeholder="____/__/__" />
+										    <span class="input-group-addon" style="width: 50px; display: table-cell;">~</span>
+										    <input type="text" class="input-sm form-control" name="end" placeholder="____/__/__" />
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="input-group">
+									  		<span class="input-group-addon" id="basic-addon1">取引先</span>
+									  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">対応状況</span>
+							  		<select name="" id="" class="form-control">
+							  			<option value="">一時保存</option>
+							  			<option value="">一時保存</option>
+							  			<option value="">一時保存</option>
+							  			<option value="">一時保存</option>
+							  		</select>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">担当者</span>
+							  		<select name="" id="" class="form-control">
+							  			<option value="">秋田</option>
+							  			<option value="">秋田</option>
+							  			<option value="">秋田</option>
+							  			<option value="">秋田</option>
+							  		</select>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">発注番号</span>
+							  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">注文番号</span>
+							  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="col-md-4"></div>
+							<div class="col-md-4">
+								<div class="input-group">
+							  		<span class="input-group-addon" id="basic-addon1">発注番号</span>
+							  		<input type="text" class="form-control" aria-describedby="basic-addon1">
+								</div>
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 text-center">
+								<button type="submit" class="btn btn-primary module1-btn"><i class="ico-magnifier"></i> 検索</button>
+								<a href="" class="btn btn-default"><i class="ico-cross-circle"></i> リセット</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">	
+					<div class="btn-wrap">
+						<button type="submit" class="btn btn-primary module1-btn" data-toggle="modal" data-target="#addCustomerModal"><i class="ico-plus-circle"></i> 新規</button>
+						<a href="" class="btn btn-danger"><i class="ico-trash2"></i> 削除</a>
+					</div>
+				</div>
+				<div class="col-md-7 text-right">
+					<span>表示件数</span>
+					<select name="" id="" class="form-control" style="display: inline-block; width: auto; margin-left:20px;">
+						<option value="">20件</option>
+						<option value="">19件</option>
+						<option value="">18件</option>
+						<option value="">17件</option>
+						<option value="">16件</option>
+					</select>
+					<ul class="pagination pagination-custom">
+					    <li class="disabled"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i></span></li>
+					    <li class="disabled"><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></li>
+					    <li class="active"><span>1 <span class="sr-only">(current)</span></span></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+						<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+				  	</ul>
+				</div>
+			</div>
+			<div class="table-responsive table-custom">
+				<table class="table table-bordered table-striped table-hover">
+					<tbody>
+						<tr style="background: #F2F2F2;">
+							<th class="text-center"><input type="checkbox"></th>
+							<th>受付番号</th>
+							<th>取引先</th>
+							<th>担当者</th>
+							<th>登録日</th>
+							<th>ステータス</th>
+							<th>見積番号</th>
+							<th>注文番号</th>
+							<th>発注番号</th>
+							<th>請求番号</th>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox"></td>
+							<td>U20170616-002</td>
+							<td>テスト３株式会社</td>
+							<td>太郎くん</td>
+							<td>2017/06/23</td>
+							<td>受注</td>
+							<td>123456</td>
+							<td>5345346</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="pagination pagination-custom">
+					    <li class="disabled"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i></span></li>
+					    <li class="disabled"><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></li>
+					    <li class="active"><span>1 <span class="sr-only">(current)</span></span></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+				  	</ul>
+			  	</div>
+			</div>
+		</div>
+	</main>
+	<!-- Add customer modal -->
+    <div class="modal fade" id="addCustomerModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">お客様の作成</h4>
+                </div>
+                <form action="" method="POST" id="AddCustomerForm" class="form-group">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    <div class="modal-body">
+                        <div class="row" id="AddCustomerError" style="display: none">
+                            <div class="alert alert-danger">
+                                <span id="AddCustomerErrorContent"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">会社名:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="customer_name" id="AddCustomerName">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">担当者:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="customer_email" id="AddCustomerEmail">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">電話番号:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="customer_phone_number" id="AddCustomerPhoneNumber">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">場所:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control col-md-12" name="customer_post_code" id="AddCustomerPostCode">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">住所 1:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="customer_address_1" id="AddCustomerAddress1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-3 col-xs-12 text-right">住所 2:</span>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="customer_address_2" id="AddCustomerAddress2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" onclick="AddCustomer()" id="BtnAddCustomer" class="btn btn-default">作成</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/datepicker/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="js/datepicker/locales/bootstrap-datepicker.ja.min.js"></script>
+	<script>
+		$('#sandbox-container .input-daterange').datepicker({
+			todayBtn: "linked",
+		    clearBtn: true,
+		    language: "ja",
+		    forceParse: false,
+		    autoclose: true,
+		    todayHighlight: true
+		});
+	</script>
+</body>
+</html>
